@@ -4,3 +4,12 @@ server:
 spring:
   application:
     name: kafka
+
+logging:
+  level:
+    org.springframework.kafka: DEBUG
+
+kafka:
+  bootstrap-servers: localhost:9091
+  group: spring-boot
+
